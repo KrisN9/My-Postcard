@@ -1,10 +1,6 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
 .postcard {
 	background: white;
 	width: 400px;
@@ -19,30 +15,36 @@ body {
 	height: 50px;
 }
 .postcard-header h1 {
-	width: auto;
+	width: 100%;
 	margin: 0%;
 }
 .postcard-body {
 	display: flex;
 }
-body-left p:first-child {
-	margin: 0%;
+.body-left p:first child {
+	margin-top: 0%;
 }
 .body-left,
 .body-right {
-	padding: 50px;
+	padding: 5px;
 }
 input {
 	border: none;
-	border-bottom: grey;
+	border-bottom: grey 2px inset;
+	color: grey;
+	font-family: "Lucida Sans";
 }
 p {
 	font-size: medium;
+	font-family: "Lucida Sans";
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
-	background-color: cornflowerblue;
-	padding: 50px;
+	background-color: grey;
+	padding: 5px;
+	border-bottom: black inset;
+	border-left-color: black;
+	font-family: "Lucida Sans";
 }
