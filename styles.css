@@ -32,11 +32,11 @@ input {
 	border: none;
 	border-bottom: grey 2px inset;
 	color: grey;
-	font-family: "Lucida Sans";
+	font-family: "Arial Black";
 }
 p {
-	font-size: medium;
-	font-family: "Lucida Sans";
+	font-size: small;
+	font-family: "Arial Black";
 }
 .postcard-footer {
 	text-align: center;
@@ -46,5 +46,5 @@ button {
 	padding: 5px;
 	border-bottom: black inset;
 	border-left-color: black;
-	font-family: "Lucida Sans";
+	font-family: "Arial Black";
 }
